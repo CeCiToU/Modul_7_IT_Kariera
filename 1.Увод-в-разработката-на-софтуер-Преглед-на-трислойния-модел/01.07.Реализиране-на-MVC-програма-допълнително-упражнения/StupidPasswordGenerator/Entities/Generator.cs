@@ -21,15 +21,24 @@ namespace Stupid_Passoword_Generator.Entities
 
         public void GeneratePasswords()
         {
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i < n; i++)
             {
-                for (int j = i + 1; j <= n; j++)
+                for (int j = 1; j < n; j++)
                 {
-                    for (int k = 0; k < l; k++)
+                    for (int a = 0; a < l; a++)
                     {
-                        for (int m = 0; m < l; m++)
+                        for (int b = 0; b < l; b++)
                         {
-                            passwords.Add(i.ToString() + i.ToString() + (char)('a' + k) + (char)('a' + m) + j.ToString());
+                            for (int c = 1; c <= n; c++)
+                            {
+                                if (c > i && c > j)
+                                {
+                                    char aa = (char)(a + 97);
+                                    char bb = (char)(b + 97);
+                                    string result = $"{i}{j}{aa}{bb}{c}";
+                                    list.Add(result);
+                                }
+                            }
                         }
                     }
                 }
