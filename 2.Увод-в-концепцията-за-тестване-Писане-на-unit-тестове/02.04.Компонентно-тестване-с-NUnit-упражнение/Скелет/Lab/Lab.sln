@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeleton", "Skeleton\Skeleton.csproj", "{B7C13488-44A9-432D-A12C-ED88E9656144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletonTest", "SkeletonTest\SkeletonTest.csproj", "{15D2641D-7299-4F3C-B758-4F18149A8396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyTest", "DummyTest\DummyTest.csproj", "{B380AC7A-388F-4D0C-9039-BB720DC1E79C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C13488-44A9-432D-A12C-ED88E9656144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C13488-44A9-432D-A12C-ED88E9656144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C13488-44A9-432D-A12C-ED88E9656144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C13488-44A9-432D-A12C-ED88E9656144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D2641D-7299-4F3C-B758-4F18149A8396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D2641D-7299-4F3C-B758-4F18149A8396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D2641D-7299-4F3C-B758-4F18149A8396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D2641D-7299-4F3C-B758-4F18149A8396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B380AC7A-388F-4D0C-9039-BB720DC1E79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B380AC7A-388F-4D0C-9039-BB720DC1E79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B380AC7A-388F-4D0C-9039-BB720DC1E79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B380AC7A-388F-4D0C-9039-BB720DC1E79C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {066DE097-383E-453A-B190-73E698DD761F}
+	EndGlobalSection
+EndGlobal
